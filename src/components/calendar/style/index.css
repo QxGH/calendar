@@ -1,0 +1,88 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.calendar {
+  width: 576px;
+  background: #fff;
+  font-size: 14px;
+  color: #333;
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+
+.calendar .calendar-table {
+  width: 100%;
+}
+
+.calendar .calendar-table th, .calendar .calendar-table td {
+  text-align: center;
+}
+
+.calendar .calendar-table th {
+  background: #f4f4f5;
+}
+
+.calendar .calendar-table .calendar-item {
+  padding: 5px;
+  width: 80px;
+  height: 60px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.calendar .calendar-table .calendar-item.border {
+  border-color: #DCDFE6;
+}
+
+.calendar .calendar-table .calendar-item:hover {
+  border-color: #409EFF;
+}
+
+.calendar .calendar-table .calendar-item .date {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.calendar .calendar-table .calendar-item .price,
+.calendar .calendar-table .calendar-item .surplus {
+  font-size: 12px;
+  line-height: 16px;
+  color: #E6A23C;
+}
+
+.calendar-popover-box .popover-header {
+  border-bottom: 1px dashed #DCDFE6;
+  padding-bottom: 5px;
+}
+
+.calendar-popover-box .popover-body {
+  padding-top: 5px;
+}
+
+.calendar-popover-box .popover-body::after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+
+.calendar-popover-box .popover-item {
+  width: 25%;
+  float: left;
+  border-left: 1px dashed #DCDFE6;
+  padding-left: 15px;
+}
+
+.calendar-popover-box .popover-item:first-child {
+  border-left: 0;
+}
+
+.calendar-popover-box .popover-item .popover-label {
+  font-size: 12px;
+  line-height: 16px;
+  color: #999;
+}
