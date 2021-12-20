@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.calendar-2 {
+  width: 576px;
+  background: #fff;
+  font-size: 14px;
+  color: #333;
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  .toggle-box {
+    background-color: #f4f4f5;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    .toggle-btn {
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      background-color: #DCDFE6;
+      cursor: pointer;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .date-box {
+      height: 50px;
+      flex: 1;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+  .calendar-table {
+    width: 100%;
+    th,td {
+      text-align: center;
+    }
+    th {
+      background: #f4f4f5;
+    }
+    .calendar-item {
+      padding: 5px;
+      width: 80px;
+      height: 60px;
+      cursor: pointer;
+      border: 1px solid transparent;
+      &.border {
+        border-color: #DCDFE6;
+      }
+      &:hover {
+        border-color: #409EFF;
+      }
+      .date {
+        font-size: 14px;
+        line-height: 16px;
+      }
+      .price,
+      .surplus {
+        font-size: 12px;
+        line-height: 16px;
+        color: #E6A23C;
+      }
+    }
+  }
+}
+.calendar-popover-box {
+  .popover-header {
+    border-bottom: 1px dashed #DCDFE6;
+    padding-bottom: 5px;
+  }
+  .popover-body {
+    padding-top: 5px;
+    &::after {
+      content: '';
+      display: block;
+      clear: both;
+      visibility: hidden;
+      height: 0;
+    }
+  }
+  .popover-item {
+    width: 25%;
+    float: left;
+    border-left: 1px dashed #DCDFE6;
+    padding-left: 15px;
+    &:first-child {
+      border-left: 0;
+    }
+    .popover-label {
+      font-size: 12px;
+      line-height: 16px;
+      color: #999;
+    }
+  }
+}

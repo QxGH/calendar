@@ -3,17 +3,22 @@
     <div class="calendar-box">
       <Calender :monthData="monthData" :dayData="dayData" @changeMonth="changeMonthHandle"></Calender>
     </div>
+    <div class="calendar-box">
+      <Calender2/>
+    </div>
   </div>
 </template>
 
 <script>
 import Calender from '@/components/calendar'
+import Calender2 from '@/components/calendar_2'
 import { dayData, monthData } from '@/mock/'
 
 export default {
   name: 'Home',
   components: {
-    Calender
+    Calender,
+    Calender2
   },
   data() {
     return {
@@ -33,6 +38,6 @@ export default {
 }
 </script>
 
-<style>
-@import url('./style/index.min.css');
+<style lang="scss">
+@import './index.scss';
 </style>

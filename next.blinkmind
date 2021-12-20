@@ -1,0 +1,233 @@
+{
+  "rootTopicKey": "2d899907-8666-4ea0-a7e6-f041e82a7c5a",
+  "editorRootTopicKey": "2d899907-8666-4ea0-a7e6-f041e82a7c5a",
+  "focusKey": null,
+  "extData": {
+    "TOPIC_REFERENCE": {
+      "reference": {}
+    }
+  },
+  "topics": [
+    {
+      "key": "09d48d08-420c-4880-adb7-3bc67ac3b5b3",
+      "parentKey": "29af0cf5-8ae9-43d2-93bf-8d8576f07e85",
+      "subKeys": [
+        "efdaf3bb-e9d3-40f7-98b5-5d316488f8bd"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "年份是当前年份"
+        }
+      ]
+    },
+    {
+      "key": "c1dc2b4a-10ea-47c2-a769-d5a1e3085634",
+      "parentKey": "1495bea3-2691-48b6-aa02-c8a1f467aaf3",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "month = 1; year += 1"
+        }
+      ]
+    },
+    {
+      "key": "efdaf3bb-e9d3-40f7-98b5-5d316488f8bd",
+      "parentKey": "09d48d08-420c-4880-adb7-3bc67ac3b5b3",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "return"
+        }
+      ]
+    },
+    {
+      "key": "71c36424-0bd9-46b8-8089-23464b18da5c",
+      "parentKey": "2d899907-8666-4ea0-a7e6-f041e82a7c5a",
+      "subKeys": [
+        "472e3f1a-6bf1-43c7-933f-ac9418989698"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "月份小于当前月份"
+        }
+      ]
+    },
+    {
+      "key": "472e3f1a-6bf1-43c7-933f-ac9418989698",
+      "parentKey": "71c36424-0bd9-46b8-8089-23464b18da5c",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "month += 1"
+        }
+      ]
+    },
+    {
+      "key": "66c3120b-b6d8-428c-883d-9ae1b4cde5ba",
+      "parentKey": "29af0cf5-8ae9-43d2-93bf-8d8576f07e85",
+      "subKeys": [
+        "1495bea3-2691-48b6-aa02-c8a1f467aaf3",
+        "8b405e52-1664-4a33-88d7-989ede355523"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "年份小于当前年份"
+        }
+      ]
+    },
+    {
+      "key": "1495bea3-2691-48b6-aa02-c8a1f467aaf3",
+      "parentKey": "66c3120b-b6d8-428c-883d-9ae1b4cde5ba",
+      "subKeys": [
+        "c1dc2b4a-10ea-47c2-a769-d5a1e3085634"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "月份等于12"
+        }
+      ]
+    },
+    {
+      "key": "2d899907-8666-4ea0-a7e6-f041e82a7c5a",
+      "parentKey": null,
+      "subKeys": [
+        "29af0cf5-8ae9-43d2-93bf-8d8576f07e85",
+        "71c36424-0bd9-46b8-8089-23464b18da5c"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "prev"
+        }
+      ]
+    },
+    {
+      "key": "edf018b7-61fc-4b5f-be20-3b8e3993d5cc",
+      "parentKey": "8b405e52-1664-4a33-88d7-989ede355523",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "month += 1"
+        }
+      ]
+    },
+    {
+      "key": "8b405e52-1664-4a33-88d7-989ede355523",
+      "parentKey": "66c3120b-b6d8-428c-883d-9ae1b4cde5ba",
+      "subKeys": [
+        "edf018b7-61fc-4b5f-be20-3b8e3993d5cc"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "月份小于12"
+        }
+      ]
+    },
+    {
+      "key": "29af0cf5-8ae9-43d2-93bf-8d8576f07e85",
+      "parentKey": "2d899907-8666-4ea0-a7e6-f041e82a7c5a",
+      "subKeys": [
+        "09d48d08-420c-4880-adb7-3bc67ac3b5b3",
+        "66c3120b-b6d8-428c-883d-9ae1b4cde5ba"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "月份大于当前月份"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 0,
+    "theme": {
+      "name": "default",
+      "randomColor": true,
+      "background": "rgb(57,60,65)",
+      "highlightColor": "#50C9CE",
+      "marginH": 60,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5"
+      },
+      "linkStyle": {
+        "lineRadius": 5,
+        "lineType": "curve",
+        "lineWidth": "3px"
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "fontSize": "34px",
+          "borderRadius": "35px",
+          "padding": "16px 18px 16px 18px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px",
+          "lineColor": "rgb(113, 203, 45)"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "borderWidth": "1px",
+          "borderStyle": "solid",
+          "borderRadius": "20px",
+          "fontSize": "17px",
+          "padding": "10px 15px 10px 15px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px",
+          "lineColor": "rgb(113, 203, 45)"
+        }
+      },
+      "normalTopic": {
+        "contentStyle": {
+          "border": "1px solid #e8eaec",
+          "borderRadius": "20px",
+          "fontSize": "17px",
+          "padding": "4px 10px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px",
+          "lineColor": "white"
+        }
+      }
+    }
+  },
+  "formatVersion": null
+}
